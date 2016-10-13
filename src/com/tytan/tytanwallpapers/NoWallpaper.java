@@ -26,7 +26,8 @@ public class NoWallpaper extends Activity {
         finish();
         try {
             WallpaperManager wm = WallpaperManager.getInstance(this);
-            wm.setResource(R.drawable.black);
+            wm.setResource(R.drawable.black, WallpaperManager.FLAG_SYSTEM);
+            wm.setResource(R.drawable.black, WallpaperManager.FLAG_LOCK);
         } catch (java.io.IOException e) {
         }
     }
