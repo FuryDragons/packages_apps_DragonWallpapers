@@ -14,28 +14,20 @@
  * limitations under the License.
  */
 
-package com.beanstalk.beanstalkpapers;
+package com.tytan.tytanwallpapers;
 
 import android.app.Activity;
 import android.app.WallpaperManager;
 import android.os.Bundle;
-import android.view.View;
 
 public class NoWallpaper extends Activity {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-
-        setContentView(R.layout.wallpaper_preview);
-    }
-
-    public void setWallpaper(View v) {
+        finish();
         try {
             WallpaperManager wm = WallpaperManager.getInstance(this);
-            wm.setResource(R.drawable.black, WallpaperManager.FLAG_SYSTEM);
-            wm.setResource(R.drawable.black, WallpaperManager.FLAG_LOCK);
+            wm.setResource(R.drawable.black);
         } catch (java.io.IOException e) {
         }
-        setResult(RESULT_OK);
-        finish();
     }
 }
