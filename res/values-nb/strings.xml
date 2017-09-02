@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="app_name">FuryDragons Bakgrunnsbilder</string>
+    <string name="app_name">Dragon Bakgrunnsbilder</string>
     <string name="set_wallpaper">Velg bakgrunnsbilde</string>
     <string name="no_wallpaper">Ingen bakgrunn</string>
 </resources>

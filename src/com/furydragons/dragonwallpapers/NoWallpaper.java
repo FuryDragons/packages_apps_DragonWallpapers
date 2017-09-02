@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.furydragons.furydragonswallpapers;
+package com.furydragons.dragonwallpapers;
 
 import android.app.Activity;
 import android.app.WallpaperManager;
